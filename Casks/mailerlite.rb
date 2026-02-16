@@ -3,7 +3,7 @@ cask "mailerlite" do
   name "mailerlite"
   desc "Command-line interface for the MailerLite API"
   homepage "https://github.com/mailerlite/mailerlite-cli"
-  version "0.0.2"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "mailerlite" do
   on_macos do
     on_intel do
       url "https://github.com/mailerlite/mailerlite-cli/releases/download/v#{version}/mailerlite-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "de4c1227f33996a2b7c9a3d0efae78cbdbe030f48b3a00d162a9bdc4bddaf0d5"
+      sha256 "231a9614ae84547b0677bffeea412861e3c6095404dfe2242cff7736238983c1"
     end
     on_arm do
       url "https://github.com/mailerlite/mailerlite-cli/releases/download/v#{version}/mailerlite-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "2d11df06f19d0b308cf7e79ed62972b278806209d5b5261d6a0c187a99635b70"
+      sha256 "180af8afc75e741e052bb2c965c3eb0dd32136ff90cee990ce0b5fe160e7af46"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mailerlite/mailerlite-cli/releases/download/v#{version}/mailerlite-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "13cb3b85087753582a2bc55458d8c270b942847fe290e77e33fa4331d5b44e19"
+      sha256 "d116d6cd08f68ebaf4b12dba514f92bcbc208d6bbbb91330f911e05c43e110f3"
     end
     on_arm do
       url "https://github.com/mailerlite/mailerlite-cli/releases/download/v#{version}/mailerlite-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "9b7307644ecf7ad3be6bded74bab66d2fe3ef4cc571a2f5b286bf66d5dd4dcb5"
+      sha256 "de10ebee6bcf2676e86845c159379becc3b3d62752a9cbee5ee7a319d3c4e1f5"
     end
   end
 
